@@ -14,6 +14,14 @@
 		F0DEAF5720B6724700253DA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0DEAF5520B6724700253DA3 /* LaunchScreen.storyboard */; };
 		F0DEAF6220B6724800253DA3 /* OfflineVoiceRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DEAF6120B6724800253DA3 /* OfflineVoiceRecognitionTests.swift */; };
 		F0DEAF6D20B6724800253DA3 /* OfflineVoiceRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DEAF6C20B6724800253DA3 /* OfflineVoiceRecognitionUITests.swift */; };
+		F0DEAF7B20B674BA00253DA3 /* IMG_3015.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0DEAF7A20B674B900253DA3 /* IMG_3015.jpg */; };
+		F0DEAF7F20B675C700253DA3 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0DEAF7D20B675C700253DA3 /* OpenEars.framework */; };
+		F0DEAF8020B675C700253DA3 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F0DEAF7E20B675C700253DA3 /* AcousticModelEnglish.bundle */; };
+		F0DEAF8320B6761B00253DA3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0DEAF8220B6761B00253DA3 /* AudioToolbox.framework */; };
+		F0DEAF8520B6762100253DA3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0DEAF8420B6762100253DA3 /* AVFoundation.framework */; };
+		F0DEAF8720B6764300253DA3 /* word.txt in Resources */ = {isa = PBXBuildFile; fileRef = F0DEAF8620B6764300253DA3 /* word.txt */; };
+		F0DEAF9120B6789E00253DA3 /* OfflineVoiceRecognitionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DEAF9020B6789E00253DA3 /* OfflineVoiceRecognitionExtensions.swift */; };
+		F0DEAF9220B6867800253DA3 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = F0DEAF8F20B6788B00253DA3 /* FontAwesome.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,15 @@
 		F0DEAF6820B6724800253DA3 /* OfflineVoiceRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OfflineVoiceRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0DEAF6C20B6724800253DA3 /* OfflineVoiceRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineVoiceRecognitionUITests.swift; sourceTree = "<group>"; };
 		F0DEAF6E20B6724800253DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0DEAF7A20B674B900253DA3 /* IMG_3015.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3015.jpg; sourceTree = "<group>"; };
+		F0DEAF7D20B675C700253DA3 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		F0DEAF7E20B675C700253DA3 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		F0DEAF8220B6761B00253DA3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F0DEAF8420B6762100253DA3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F0DEAF8620B6764300253DA3 /* word.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = word.txt; sourceTree = "<group>"; };
+		F0DEAF8B20B6783A00253DA3 /* OfflineVoiceRecognition-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OfflineVoiceRecognition-Bridging-Header.h"; sourceTree = "<group>"; };
+		F0DEAF8F20B6788B00253DA3 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		F0DEAF9020B6789E00253DA3 /* OfflineVoiceRecognitionExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineVoiceRecognitionExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0DEAF8520B6762100253DA3 /* AVFoundation.framework in Frameworks */,
+				F0DEAF8320B6761B00253DA3 /* AudioToolbox.framework in Frameworks */,
+				F0DEAF7F20B675C700253DA3 /* OpenEars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +101,7 @@
 				F0DEAF6020B6724800253DA3 /* OfflineVoiceRecognitionTests */,
 				F0DEAF6B20B6724800253DA3 /* OfflineVoiceRecognitionUITests */,
 				F0DEAF4A20B6724700253DA3 /* Products */,
+				F0DEAF8120B6761B00253DA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +118,18 @@
 		F0DEAF4B20B6724700253DA3 /* OfflineVoiceRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				F0DEAF8B20B6783A00253DA3 /* OfflineVoiceRecognition-Bridging-Header.h */,
+				F0DEAF9020B6789E00253DA3 /* OfflineVoiceRecognitionExtensions.swift */,
 				F0DEAF4C20B6724700253DA3 /* AppDelegate.swift */,
 				F0DEAF4E20B6724700253DA3 /* ViewController.swift */,
+				F0DEAF7A20B674B900253DA3 /* IMG_3015.jpg */,
 				F0DEAF5020B6724700253DA3 /* Main.storyboard */,
 				F0DEAF5320B6724700253DA3 /* Assets.xcassets */,
 				F0DEAF5520B6724700253DA3 /* LaunchScreen.storyboard */,
 				F0DEAF5820B6724700253DA3 /* Info.plist */,
+				F0DEAF8620B6764300253DA3 /* word.txt */,
+				F0DEAF8F20B6788B00253DA3 /* FontAwesome.otf */,
+				F0DEAF7C20B675C700253DA3 /* Framework */,
 			);
 			path = OfflineVoiceRecognition;
 			sourceTree = "<group>";
@@ -123,6 +150,24 @@
 				F0DEAF6E20B6724800253DA3 /* Info.plist */,
 			);
 			path = OfflineVoiceRecognitionUITests;
+			sourceTree = "<group>";
+		};
+		F0DEAF7C20B675C700253DA3 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				F0DEAF7D20B675C700253DA3 /* OpenEars.framework */,
+				F0DEAF7E20B675C700253DA3 /* AcousticModelEnglish.bundle */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		F0DEAF8120B6761B00253DA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0DEAF8420B6762100253DA3 /* AVFoundation.framework */,
+				F0DEAF8220B6761B00253DA3 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +238,7 @@
 				TargetAttributes = {
 					F0DEAF4820B6724700253DA3 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					F0DEAF5C20B6724800253DA3 = {
@@ -232,8 +278,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0DEAF9220B6867800253DA3 /* FontAwesome.otf in Resources */,
+				F0DEAF7B20B674BA00253DA3 /* IMG_3015.jpg in Resources */,
 				F0DEAF5720B6724700253DA3 /* LaunchScreen.storyboard in Resources */,
 				F0DEAF5420B6724700253DA3 /* Assets.xcassets in Resources */,
+				F0DEAF8020B675C700253DA3 /* AcousticModelEnglish.bundle in Resources */,
+				F0DEAF8720B6764300253DA3 /* word.txt in Resources */,
 				F0DEAF5220B6724700253DA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0DEAF9120B6789E00253DA3 /* OfflineVoiceRecognitionExtensions.swift in Sources */,
 				F0DEAF4F20B6724700253DA3 /* ViewController.swift in Sources */,
 				F0DEAF4D20B6724700253DA3 /* AppDelegate.swift in Sources */,
 			);
@@ -426,11 +477,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OfflineVoiceRecognition/Framework",
+				);
 				INFOPLIST_FILE = OfflineVoiceRecognition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com..OfflineVoiceRecognition;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OfflineVoiceRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OfflineVoiceRecognition/OfflineVoiceRecognition-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,11 +498,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OfflineVoiceRecognition/Framework",
+				);
 				INFOPLIST_FILE = OfflineVoiceRecognition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com..OfflineVoiceRecognition;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OfflineVoiceRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OfflineVoiceRecognition/OfflineVoiceRecognition-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
