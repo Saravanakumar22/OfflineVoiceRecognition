@@ -11,7 +11,7 @@ import AVFoundation
 import Speech
 import UserNotifications
 
-class ViewController: UIViewController,SFSpeechRecognizerDelegate,AVSpeechSynthesizerDelegate,UNUserNotificationCenterDelegate,OEEventsObserverDelegate {
+class SpeechViewController: UIViewController,SFSpeechRecognizerDelegate,AVSpeechSynthesizerDelegate,UNUserNotificationCenterDelegate,OEEventsObserverDelegate {
     
     @IBOutlet var contentText: UITextView!
     @IBOutlet var startButton:UIButton!

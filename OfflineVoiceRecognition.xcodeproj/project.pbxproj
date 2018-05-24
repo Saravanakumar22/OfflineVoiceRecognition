@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F0DEAF4D20B6724700253DA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DEAF4C20B6724700253DA3 /* AppDelegate.swift */; };
-		F0DEAF4F20B6724700253DA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DEAF4E20B6724700253DA3 /* ViewController.swift */; };
+		F0DEAF4F20B6724700253DA3 /* SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DEAF4E20B6724700253DA3 /* SpeechViewController.swift */; };
 		F0DEAF5220B6724700253DA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0DEAF5020B6724700253DA3 /* Main.storyboard */; };
 		F0DEAF5420B6724700253DA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0DEAF5320B6724700253DA3 /* Assets.xcassets */; };
 		F0DEAF5720B6724700253DA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0DEAF5520B6724700253DA3 /* LaunchScreen.storyboard */; };
@@ -44,7 +44,7 @@
 /* Begin PBXFileReference section */
 		F0DEAF4920B6724700253DA3 /* OfflineVoiceRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfflineVoiceRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0DEAF4C20B6724700253DA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F0DEAF4E20B6724700253DA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0DEAF4E20B6724700253DA3 /* SpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechViewController.swift; sourceTree = "<group>"; };
 		F0DEAF5120B6724700253DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0DEAF5320B6724700253DA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0DEAF5620B6724700253DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 				F0DEAF8B20B6783A00253DA3 /* OfflineVoiceRecognition-Bridging-Header.h */,
 				F0DEAF9020B6789E00253DA3 /* OfflineVoiceRecognitionExtensions.swift */,
 				F0DEAF4C20B6724700253DA3 /* AppDelegate.swift */,
-				F0DEAF4E20B6724700253DA3 /* ViewController.swift */,
+				F0DEAF4E20B6724700253DA3 /* SpeechViewController.swift */,
 				F0DEAF7A20B674B900253DA3 /* IMG_3015.jpg */,
 				F0DEAF5020B6724700253DA3 /* Main.storyboard */,
 				F0DEAF5320B6724700253DA3 /* Assets.xcassets */,
@@ -310,7 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0DEAF9120B6789E00253DA3 /* OfflineVoiceRecognitionExtensions.swift in Sources */,
-				F0DEAF4F20B6724700253DA3 /* ViewController.swift in Sources */,
+				F0DEAF4F20B6724700253DA3 /* SpeechViewController.swift in Sources */,
 				F0DEAF4D20B6724700253DA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +484,7 @@
 					"$(PROJECT_DIR)/OfflineVoiceRecognition/Framework",
 				);
 				INFOPLIST_FILE = OfflineVoiceRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.OfflineVoiceRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +506,7 @@
 					"$(PROJECT_DIR)/OfflineVoiceRecognition/Framework",
 				);
 				INFOPLIST_FILE = OfflineVoiceRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.OfflineVoiceRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
